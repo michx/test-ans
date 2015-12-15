@@ -1,7 +1,7 @@
 - name: Install Junos OS
   hosts: 192.168.123.199 
   roles:
-    - Juniper.junos
+    - /etc/ansible/roles/Juniper.junos
   connection: local
   gather_facts: no
   vars:
